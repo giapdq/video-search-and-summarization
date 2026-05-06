@@ -8,8 +8,11 @@ description: >
   OpenAI-compatible `/v1/chat/completions`; consume Kafka caption, incident, and error
   topics; or debug rtvi-vlm responses. For deployment, read
   `references/deploy-rt-vlm-service.md` first.
-version: "3.1.0"
 license: "Apache License 2.0"
+metadata:
+  version: "3.1.0"
+  github-url: "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization"
+  tags: "nvidia blueprint vss operational deployment"
 ---
 
 # RTVI VLM Usage API (VSS 3.1)

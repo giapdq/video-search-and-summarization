@@ -1,8 +1,11 @@
 ---
 name: video-summarization
 description: Summarize a video by calling the VLM NIM or the Long Video Summarization (LVS) microservice directly. For short videos (<60s) call the VLM's OpenAI-compatible chat completions endpoint; for long videos (>=60s) call the LVS microservice. Use when asked to summarize a video, describe what happens in a video, analyze a recording, call or debug LVS summarize/model/health/recommended-config/metrics endpoints, or configure and troubleshoot the LVS service that backs long-video summarization.
-version: "3.1.0"
 license: "Apache License 2.0"
+metadata:
+  version: "3.1.0"
+  github-url: "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization"
+  tags: "nvidia blueprint vss operational"
 ---
 
 > Source: [NVIDIA-AI-Blueprints/video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization)

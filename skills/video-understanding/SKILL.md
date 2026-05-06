@@ -1,8 +1,11 @@
 ---
 name: video-understanding
 description: Call the vss agent to run video understanding on video to answer a text question. Use when the user asks about video content, or about visual details that cannot be answered from conversation history, search hits, or metadata alone.
-version: "3.1.0"
 license: "Apache License 2.0"
+metadata:
+  version: "3.1.0"
+  github-url: "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization"
+  tags: "nvidia blueprint vss operational"
 ---
 
 # Video QnA using VLM through VSS Agent

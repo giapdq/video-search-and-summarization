@@ -1,8 +1,11 @@
 ---
 name: vss-frag
 description: "Generate video summary reports using the VSS video_search_frag extension with Long Video Summarization (LVS), Enterprise RAG knowledge retrieval, and human-in-the-loop parameter collection. Use when: user wants to generate a video summary, report, or analysis using the frag pipeline."
-version: "3.1.0"
 license: "Apache License 2.0"
+metadata:
+  version: "3.1.0"
+  github-url: "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization"
+  tags: "nvidia blueprint vss operational"
 ---
 
 # VSS Frag — Video Analysis with Enterprise RAG
